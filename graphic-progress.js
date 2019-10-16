@@ -66,7 +66,7 @@
       visibleLayers: ['southamerica-farther'],
       annotations: [
         {
-          text: 'hello',
+          text: 'first bit of text at zero',
           coords: [-57.86, -25.50]
         }
       ]
@@ -79,7 +79,7 @@
       visibleLayers: ['southamerica-farther'],
       annotations: [
         {
-          text: 'hello222',
+          text: 'second bit of text at one',
           coords: [-56.86, -25.50]
         },
       ]
@@ -92,7 +92,7 @@
       visibleLayers: ['southamerica-farther','southamerica-closer'],
       annotations: [
         {
-          text: 'Hi friend',
+          text: 'text at two',
           coords: [-67.05, -18.79]
         },
       ]
@@ -105,7 +105,7 @@
       visibleLayers: ['southamerica-farther', 'southamerica-closer', 'lake'],
       annotations: [
         {
-          text: 'More text',
+          text: 'more text at three',
           coords: [-69.05, -18.79]
         },
       ]
