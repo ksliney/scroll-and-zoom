@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang='en'>
+  <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+        <style>
+          .step {
+            min-height: 40vh;
+          }
+
+          .sticky {
+            position: -webkit-sticky;
+            position: sticky;
+            top: 10vh;
+            z-index: -1020;
+          }
+
+          h1 {
+            text-align: center;
+          }
+        </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 mt-5 mb-5">
+          <h1>✨✨ S C R O L L Y T E L L I N G  M A P  M A G I C✨✨</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="sticky">
+            <div id="graphic"></div>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class='step' id="step-1"><p>Entering step 1</p></div>
+          <div class='step' id="step-2"><p>Entering step 2</p><p>More text</p><p>More text</p><p>More text</p></div>
+          <div class='step' id="step-3"><p>This is step 3</p></div>
+          <div class='step' id="step-4"><p>Now step 4</p><p>More text</p><p>More text</p></div>
+          <div class='step' id="step-5"><p>Step 5...you get the idea</p></div>
+          <div class='step' id="step-6"><p>Step 6</p></div>
+          <div class='step' id="step-7"><p>Step 7</p></div>
+          <div class='step' id="step-8"><p>Step 8 is last</p></div>
+        </div>
+      </div>
+    </div>
+
+      
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://d3js.org/topojson.v2.min.js"></script>
+
+    <script src="enter-view.js"></script>
+    <script src="scrollytelling.js"></script>
+    <script src="graphic-progress.js"></script>
+
+   </body>
+</html>
